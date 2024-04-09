@@ -17,7 +17,6 @@ public class TriggerVolume : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Entered");
         OnEnterTrigger.Invoke();
     }
 }

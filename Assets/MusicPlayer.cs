@@ -10,7 +10,7 @@ public class MusicPlayer : MonoBehaviour
     private void Awake()
     {
         _audioSource = GetComponent<AudioSource>();
-        _audioSource.loop = true
+        _audioSource.loop = true;
         _audioSource.spatialBlend = 0;
     }
 

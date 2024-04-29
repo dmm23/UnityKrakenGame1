@@ -24,5 +24,19 @@ public class TriggerVolume : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         OnEnterTrigger.Invoke();
+        Gizmos.DrawCube(transform.position)
     }
+
+    private void OnDrawGizmos()
+    {
+        if (_displayGizmos == false)
+            return;
+    }
+    
+    private void OnDrawGizmosSelected()
+    {
+        if (_displayGizmos == false)
+            return;
+    }
+
 }

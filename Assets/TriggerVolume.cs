@@ -15,6 +15,9 @@ public class TriggerVolume : MonoBehaviour
     [SerializeField]
     private bool _displayGizmos = false;
 
+    [SerializeField]
+    private Color _gizmoColor = Color.red;
+
     private void Awake()
     {
         _collider = GetComponent<Collider>();
@@ -35,6 +38,8 @@ public class TriggerVolume : MonoBehaviour
         {
             _collider = GetComponent<Collider>();
         }
+
+        Gizmos.color = _gizmoColor;
         Gizmos.DrawCube(transform.position, _collider.bounds.size);
 
     }

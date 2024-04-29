@@ -11,7 +11,9 @@ public class TriggerVolume : MonoBehaviour
 
     private Collider _collider;
 
-
+    [Header("Gizmo Settings")]
+    [SerializeField]
+    private bool _dispalyGizmos = false;
 
     private void Awake()
     {

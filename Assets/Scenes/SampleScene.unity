@@ -136,8 +136,8 @@ GameObject:
   - component: {fileID: 90360546}
   - component: {fileID: 90360545}
   - component: {fileID: 90360549}
+  - component: {fileID: 90360552}
   - component: {fileID: 90360551}
-  - component: {fileID: 90360550}
   m_Layer: 0
   m_Name: TestObject
   m_TagString: Untagged
@@ -239,18 +239,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &90360550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 90360544}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2e04f42a4d57ef42a2034e1d1d63970, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &90360551
 AudioSource:
   m_ObjectHideFlags: 0
@@ -347,6 +335,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &90360552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90360544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2e04f42a4d57ef42a2034e1d1d63970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &642764271
 GameObject:
   m_ObjectHideFlags: 0
@@ -849,6 +849,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  _displayGizmos: 1
 --- !u!1 &1848995999
 GameObject:
   m_ObjectHideFlags: 0

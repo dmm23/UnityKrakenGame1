@@ -13,7 +13,7 @@ public class TriggerVolume : MonoBehaviour
 
     [Header("Gizmo Settings")]
     [SerializeField]
-    private bool _dispalyGizmos = false;
+    private bool _displayGizmos = false;
 
     private void Awake()
     {

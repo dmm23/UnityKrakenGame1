@@ -35,7 +35,7 @@ public class TriggerVolume : MonoBehaviour
         {
             _collider = GetComponent<Collider>();
         }
-        Gizmos.DrawCube(transform.position, _collider.bounds.extents);
+        Gizmos.DrawCube(transform.position, _collider.bounds.size);
 
     }
     

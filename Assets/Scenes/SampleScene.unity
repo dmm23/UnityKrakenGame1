@@ -216,7 +216,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 90360544}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.453, z: 0}
+  m_LocalPosition: {x: 0, y: 4.41, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -842,7 +842,7 @@ MonoBehaviour:
         m_MethodName: playMusic
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 8300000, guid: 86b487c12e0bd21468d03328a30f69bd, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -850,6 +850,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   _displayGizmos: 1
+  _gizmoColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &1848995999
 GameObject:
   m_ObjectHideFlags: 0
